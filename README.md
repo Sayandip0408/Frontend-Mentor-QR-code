@@ -2,6 +2,10 @@
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
+# Live Website link
+
+https://frontendmentor-qrcode-sayandip.netlify.app/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.

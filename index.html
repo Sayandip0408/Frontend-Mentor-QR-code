@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    #container {
+      height: 100vh;
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #QRdiv {
+      background-color: hsl(0, 0%, 100%);
+      padding: 15px;
+      border-radius: 20px;
+      width: 330px;
+      box-shadow: 5px 10px 15px 5px hsl(212, 33%, 84%);
+    }
+
+    #QRdiv img {
+      border-radius: 10px;
+      height: 300px;
+      width: 300px;
+    }
+
+    #main {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 900;
+      font-size: 22px;
+      color: hsl(218, 44%, 22%);
+      text-align: center;
+      padding: 5px 10px;
+    }
+
+    #details {
+      font-family: 'Outfit', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+      padding: 5px 10px;
+      color: hsl(220, 15%, 55%);
+    }
+
+    @media (max-width:375px) {
+      #QRdiv {
+        padding: 5vw;
+        width: 85vw;
+      }
+
+      #QRdiv img {
+        width: 100%;
+        height: 100%;
+      }
+
+      #main {
+        font-size: 23px;
+        font-weight: bolder;
+      }
+
+      #details {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="QRdiv">
+      <img src="./images/image-qr-code.png" alt="QR_Code_image">
+      <p id="main">Improve your front-end skills by building projects</p>
+      <p id="details">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+</body>
+
+</html>
